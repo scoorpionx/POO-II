@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "9jQeL2DOn9fNVdzucmizBO925aUl8y/Lzr3Zdm66HJC6IiD0lv+hB42c1Jly+Qk0B9a2ewJZhb38g66xfAD5eg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joao.santos\\Downloads\\Wpfcontato\\Wpfcontato\\Wpfcontato.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joao.santos\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\joao.santos\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\joao.santos\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\joao.santos\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\joao.santos\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\joao.santos\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

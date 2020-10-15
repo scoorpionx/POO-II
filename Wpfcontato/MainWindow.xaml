@@ -1,0 +1,20 @@
+﻿<Window x:Class="Wpfcontato.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfcontato"
+        mc:Ignorable="d"
+        Title="Janela de cadastro" Height="450" Width="800">
+    <Grid>
+       
+
+        <Menu>
+            <MenuItem Header="contato">
+                <MenuItem x:Name="mNovo" Header="Novo" Click="mNovo_Click"/>
+                <MenuItem x:Name="mListar" Header="Listar" Click="mListar_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
