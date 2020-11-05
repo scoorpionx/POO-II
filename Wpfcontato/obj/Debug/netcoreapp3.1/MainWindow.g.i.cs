@@ -91,7 +91,7 @@ namespace Wpfcontato {
             this.mNovo = ((System.Windows.Controls.MenuItem)(target));
             
             #line 14 "..\..\..\MainWindow.xaml"
-            this.mNovo.Click += new System.Windows.RoutedEventHandler(this.mNovo_Click);
+            this.mNovo.Click += new System.Windows.RoutedEventHandler(this.btnNovo_Click);
             
             #line default
             #line hidden
@@ -100,7 +100,7 @@ namespace Wpfcontato {
             this.mListar = ((System.Windows.Controls.MenuItem)(target));
             
             #line 15 "..\..\..\MainWindow.xaml"
-            this.mListar.Click += new System.Windows.RoutedEventHandler(this.mListar_Click);
+            this.mListar.Click += new System.Windows.RoutedEventHandler(this.btnListar_Click);
             
             #line default
             #line hidden

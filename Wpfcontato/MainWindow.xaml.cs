@@ -29,14 +29,14 @@ namespace Wpfcontato
             InitializeComponent();
         }
 
-        private void mNovo_Click(object sender, RoutedEventArgs e)
+        private void btnNovo_Click(object sender, RoutedEventArgs e)
         {
             var manterContato = new ViewManterContato();
           
             manterContato.Show();
         }
 
-        private void mListar_Click(object sender, RoutedEventArgs e)
+        private void btnListar_Click(object sender, RoutedEventArgs e)
         {
             var ListarContato = new ViewListarContato();
 
