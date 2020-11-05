@@ -20,7 +20,7 @@ namespace Wpfcontato.View
     /// </summary>
     public partial class ViewListarContato : Window
     {
-        public List<Contato> Contatos { get; set; }
+        public List<Cliente> Cliente { get; set; }
         public ViewListarContato()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace Wpfcontato.View
         {
             DB database = new DB();
             database.openConnection();
-            Contatos = database.conn.Table<Contato>().ToList();
+            Clientes = database.conn.Table<Cliente>().ToList();
             database.closeConnection();
 
         }

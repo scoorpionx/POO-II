@@ -27,7 +27,7 @@ namespace Wpfcontato.DAO
             this.openConnection();
 
             // Create all necessary tables
-            this.conn.CreateTable<Contato>();
+            this.conn.CreateTable<Cliente>();
             
             this.closeConnection();
             return;

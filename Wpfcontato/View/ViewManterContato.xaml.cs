@@ -26,7 +26,7 @@ namespace Wpfcontato.View
 
         private void btxSalvar_Click(object sender, RoutedEventArgs e)
         {
-            Contato Contato = new Contato()
+            Cliente cliente = new Cliente()
             {
                 Nome = txbName.Text,
                 Email = tbxEmail.Text,
@@ -39,7 +39,7 @@ namespace Wpfcontato.View
             };
             DB database = new DB();
             database.openConnection();
-            database.conn.Insert(Contato);
+            database.conn.Insert(Cliente);
             database.closeConnection();
             this.Close();
         }
