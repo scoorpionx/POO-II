@@ -22,6 +22,8 @@ namespace Wpfcontato.View
         public ViewCadastrarFuncionario()
         {
             InitializeComponent();
+            btCancelar.Click += cancelar;
+            btLimpar.Click += limparCampos;
         }
 
         private void btxSalvar_Click(object sender, RoutedEventArgs e)
@@ -32,7 +34,7 @@ namespace Wpfcontato.View
                 CPFouCNPJ = tbxCPFouCNPJ.Text,
                 Logradouro = tbxLogradouro.Text,
                 CEP = tbxCEP.Text,
-                Numero = tbxNumero.Text,
+                Numero = tbxLNumero.Text,
                 Telefone = tbxTelefone.Text,
                 Complemento = tbxComplemento.Text,
                 Bairro = tbxBairro.Text,
@@ -44,6 +46,26 @@ namespace Wpfcontato.View
             database.openConnection();
             database.conn.Insert(funcionario);
             database.closeConnection();
+            this.Close();
+        }
+
+        public void limparCampos(object sender, RoutedEventArgs e)
+        {
+            txbName.Text = "";
+            tbxCPFouCNPJ.Text = "";
+            tbxLogradouro.Text = "";
+            tbxCEP.Text = "";
+            tbxLNumero.Text = "";
+            tbxNumero.Text = "";
+            tbxTelefone.Text = "";
+            tbxComplemento.Text = "";
+            tbxBairro.Text = "";
+            tbxCidade.Text = "";
+            tbxEstado.Text = "";
+        }
+
+        public void cancelar(object sender, RoutedEventArgs e)
+        {
             this.Close();
         }
     }

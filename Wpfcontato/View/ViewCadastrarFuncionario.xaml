@@ -62,10 +62,10 @@
             <Canvas Height="86" Margin="10 20">
                 <Button x:Name="btxSalvar" Content="Salvar" Width="150" Height="50" Click="btxSalvar_Click"/>
                 <TextBlock Canvas.Left="170">
-                        <Button Content="Limpar" Width="150" Height="50"/>
+                        <Button x:Name="btLimpar" Content="Limpar" Width="150" Height="50"/>
                 </TextBlock>
                 <TextBlock Canvas.Left="340">
-                        <Button Content="Cancelar" Width="150" Height="50"/>
+                        <Button x:Name="btCancelar" Content="Cancelar" Width="150" Height="50"/>
                 </TextBlock>
             </Canvas>
 
