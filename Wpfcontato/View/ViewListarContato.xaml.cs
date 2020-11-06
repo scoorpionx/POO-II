@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Wpfcontato.Model;
 using Wpfcontato.DAO;
+using System.Linq;
 
 namespace Wpfcontato.View
 {
@@ -20,26 +21,40 @@ namespace Wpfcontato.View
     /// </summary>
     public partial class ViewListarContato : Window
     {
-        public List<Contato> Contatos { get; set; }
+        public List<Cliente> Cliente { get; set; }
         public ViewListarContato()
         {
             InitializeComponent();
 
             listarContatos();
 
-            dgListaContatos.ItemsSource = Contatos;
-            
+            btPesquisar.Click += buscaClientePorNome;
         }
 
         public void listarContatos()
         {
             DB database = new DB();
             database.openConnection();
-            Contatos = database.conn.Table<Contato>().ToList();
+            Cliente = database.conn.Table<Cliente>().ToList();
             database.closeConnection();
 
+            dgListaContatos.ItemsSource = Cliente;
         }
 
+        public void buscaClientePorNome(object sender, RoutedEventArgs e)
+        {
+            if (txtNomePesquisa.Text == "")
+            {
+                listarContatos();
+                return;
+            };
+
+            DB database = new DB();
+            database.openConnection();
+            Cliente = database.conn.Query<Cliente>("SELECT * FROM `TB_Cliente` WHERE `TB_Cliente`.`Nome` LIKE ? ", txtNomePesquisa.Text).ToList();
+            database.closeConnection();
+            dgListaContatos.ItemsSource = Cliente;
+        }
     }
 
 }

@@ -7,7 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\ViewCadastrarFuncionario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\ViewListarContato.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ViewListarFuncionario.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\ViewManterContato.xaml.cs">
@@ -18,7 +24,13 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\ViewCadastrarFuncionario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\ViewListarContato.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ViewListarFuncionario.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\ViewManterContato.xaml">

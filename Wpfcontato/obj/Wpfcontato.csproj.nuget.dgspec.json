@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao.santos\\Downloads\\Wpfcontato\\Wpfcontato\\Wpfcontato.csproj": {}
+    "C:\\Users\\joao.santos\\source\\repos\\POO-II\\Wpfcontato\\Wpfcontato.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao.santos\\Downloads\\Wpfcontato\\Wpfcontato\\Wpfcontato.csproj": {
+    "C:\\Users\\joao.santos\\source\\repos\\POO-II\\Wpfcontato\\Wpfcontato.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.santos\\Downloads\\Wpfcontato\\Wpfcontato\\Wpfcontato.csproj",
+        "projectUniqueName": "C:\\Users\\joao.santos\\source\\repos\\POO-II\\Wpfcontato\\Wpfcontato.csproj",
         "projectName": "Wpfcontato",
-        "projectPath": "C:\\Users\\joao.santos\\Downloads\\Wpfcontato\\Wpfcontato\\Wpfcontato.csproj",
+        "projectPath": "C:\\Users\\joao.santos\\source\\repos\\POO-II\\Wpfcontato\\Wpfcontato.csproj",
         "packagesPath": "C:\\Users\\joao.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.santos\\Downloads\\Wpfcontato\\Wpfcontato\\obj\\",
+        "outputPath": "C:\\Users\\joao.santos\\source\\repos\\POO-II\\Wpfcontato\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joao.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",

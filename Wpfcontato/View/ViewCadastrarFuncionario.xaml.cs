@@ -15,18 +15,18 @@ using Wpfcontato.DAO;
 namespace Wpfcontato.View
 {
     /// <summary>
-    /// Lógica interna para ViewManterContato.xaml
+    /// Lógica interna para ViewCadastrarFuncionario.xaml
     /// </summary>
-    public partial class ViewManterContato : Window
+    public partial class ViewCadastrarFuncionario : Window
     {
-        public ViewManterContato()
+        public ViewCadastrarFuncionario()
         {
             InitializeComponent();
         }
 
         private void btxSalvar_Click(object sender, RoutedEventArgs e)
         {
-            Cliente cliente = new Cliente()
+            Funcionario funcionario = new Funcionario()
             {
                 Nome = txbName.Text,
                 CPFouCNPJ = tbxCPFouCNPJ.Text,
@@ -42,10 +42,9 @@ namespace Wpfcontato.View
             };
             DB database = new DB();
             database.openConnection();
-            database.conn.Insert(cliente);
+            database.conn.Insert(funcionario);
             database.closeConnection();
             this.Close();
         }
     }
 }
-

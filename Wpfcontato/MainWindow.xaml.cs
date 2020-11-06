@@ -29,18 +29,32 @@ namespace Wpfcontato
             InitializeComponent();
         }
 
-        private void mNovo_Click(object sender, RoutedEventArgs e)
+        private void btnNovo_Click(object sender, RoutedEventArgs e)
         {
             var manterContato = new ViewManterContato();
           
             manterContato.Show();
         }
 
-        private void mListar_Click(object sender, RoutedEventArgs e)
+        private void btnListar_Click(object sender, RoutedEventArgs e)
         {
             var ListarContato = new ViewListarContato();
 
             ListarContato.Show();
+        }
+
+        private void btnListarFuncionario_Click(object sender, RoutedEventArgs e)
+        {
+            var ListarFuncionario = new ViewListarFuncionario();
+
+            ListarFuncionario.Show();
+        }
+
+        private void btnCadastrarFun_Click(object sender, RoutedEventArgs e)
+        {
+            var CadastrarFuncionario = new ViewCadastrarFuncionario();
+
+            CadastrarFuncionario.Show();
         }
     }
 }

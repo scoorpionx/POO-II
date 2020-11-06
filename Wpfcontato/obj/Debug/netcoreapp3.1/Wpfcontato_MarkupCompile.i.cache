@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\joao.santos\Downloads\Wpfcontato\Wpfcontato\obj\Debug\netcoreapp3.1\
+C:\Users\joao.santos\source\repos\POO-II\Wpfcontato\obj\Debug\netcoreapp3.1\
 Wpfcontato
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\joao.santos\Downloads\Wpfcontato\Wpfcontato\App.xaml
-3-1743423834
+C:\Users\joao.santos\source\repos\POO-II\Wpfcontato\App.xaml
+5-178047486
 
-9-929632950
+12-334138262
 1971428899829
-MainWindow.xaml;View\ViewListarContato.xaml;View\ViewManterContato.xaml;
+MainWindow.xaml;View\ViewCadastrarFuncionario.xaml;View\ViewListarContato.xaml;View\ViewListarFuncionario.xaml;View\ViewManterContato.xaml;
 
 False
 

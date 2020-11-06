@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9jQeL2DOn9fNVdzucmizBO925aUl8y/Lzr3Zdm66HJC6IiD0lv+hB42c1Jly+Qk0B9a2ewJZhb38g66xfAD5eg==",
+  "dgSpecHash": "9dnfhxxFR7/dxUmpBPCywQwcSaFuJhMgOyldaUM6lzWltc5BGPSrmE9G/ecMRxjoqNfxnl/ik2Mpp6cPVTRAfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.santos\\Downloads\\Wpfcontato\\Wpfcontato\\Wpfcontato.csproj",
+  "projectFilePath": "C:\\Users\\joao.santos\\source\\repos\\POO-II\\Wpfcontato\\Wpfcontato.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao.santos\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\joao.santos\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
